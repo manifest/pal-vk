@@ -1,0 +1,14 @@
+{application, pal_vk, [
+	{description, "Pragmatic Authentication Library: VK workflows"},
+	{vsn, "0.3.0"},
+	{id, "git"},
+	{modules, []},
+	{registered, []},
+	{applications, [
+		kernel,
+		stdlib,
+		pal_oauth2
+	]},
+	{env, []}
+]}.
+
